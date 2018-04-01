@@ -1,0 +1,22 @@
+body {
+	background-color: lightblue;
+}
+th {
+	color: navy;
+	margin-left: 30px;
+}
+td.question {
+	border-top-style: solid;
+	border-top-color: navy;
+}
+td.answer {
+	padding-left: 2em;
+}
+td.correctAnswer {
+	padding-left: 2em;
+	background-color: #44ff11;
+}
+td.incorrectAnswer {
+	padding-left: 2em;
+	background-color: #ff4411;
+}
