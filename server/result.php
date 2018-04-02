@@ -1,4 +1,5 @@
 <?php
+include("functions.php");
 session_start();
 $imageFolder = "Images";
 // SESSION VARIABLES THAT SHOULD BE SET:
@@ -48,16 +49,18 @@ foreach ($result as $row) {
 	<?php
 	}
 	// Print Answer
-	$answer = $row[3];
-	if (substr($answer, 0, 4) === 'img:') {
-		$answer = "<img src=\"$imageFolder/".substr($answer, 4)."\" />";
-	}
+	$answer = subs($row[3]);
+	# if (substr($answer, 0, 4) === 'img:') {
+		# $answer = "<img src=\"$imageFolder/".substr($answer, 4)."\" />";
+	# }
 	$answerId = $row[2];
 	$correctAnswer = ($row[2] == $row[4]);
 	$thisAnswer = ($answerId == $_REQUEST["Q".$row[0]]);
 	$ansClass = "answer";
-	if ($correctAnswer) {
+	if ($correctAnswer and $thisAnswer) {
 		$ansClass = "correctAnswer";
+	} else if ($correctAnswer) {
+		$ansClass = "missedAnswer";
 	} else if ($thisAnswer) {
 		$ansClass = "incorrectAnswer";
 	}

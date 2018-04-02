@@ -1,4 +1,5 @@
 <?php
+include("functions.php");
 session_start();
 $testId = 1;
 $imageFolder = "Images";
@@ -80,10 +81,10 @@ foreach ($result as $row) {
 		<?php
 	}
 	// Print Answer
-	$answer = $row[3];
-	if (substr($answer, 0, 4) === 'img:') {
-		$answer = "<img src=\"$imageFolder/".substr($answer, 4)."\" />";
-	}
+	$answer = subs($row[3]);
+	# if (substr($answer, 0, 4) === 'img:') {
+		# $answer = "<img src=\"$imageFolder/".substr($answer, 4)."\" />";
+	# }
 	?>
 		<tr><td class="answer"><input type="radio" class="radiobutton" name="<?php echo "Q".$row[0]; ?>" value="<?php echo $row[2]; ?>"><?php echo $answer; ?></input> </td></tr>
 	<?php

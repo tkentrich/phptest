@@ -1,0 +1,10 @@
+Which note gets 4 beats?	
+*	Whole note
+	Half note
+	Quarter note
+	Eighth note
+How many beats does a dotted half note get?	
+	1
+	2
+*	3
+	4

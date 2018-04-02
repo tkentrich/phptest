@@ -20,3 +20,9 @@ td.incorrectAnswer {
 	padding-left: 2em;
 	background-color: #ff4411;
 }
+td.missedAnswer {
+	padding-left: 2em;
+	background-color: #44ff11;
+	border-style: solid;
+	border-color: #ff4411;
+}
