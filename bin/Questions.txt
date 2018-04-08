@@ -1,10 +1,92 @@
 Which note gets 4 beats?	
-*	Whole note
-	Half note
-	Quarter note
-	Eighth note
+*	img:whole.jpg
+	img:half.jpg
+	img:quarter.jpg
+	img:eighth.jpg
 How many beats does a dotted half note get?	
 	1
 	2
 *	3
 	4
+Which note gets 2 beats?	
+	img:whole.jpg
+*	img:half.jpg
+	img:quarter.jpg
+	img:eighth.jpg
+Which melody is going up?	
+	img:aaaa.jpg
+*	img:face.jpg
+	img:ecaf.jpg
+Which note gets 1 beat?	
+	img:whole.jpg
+	img:half.jpg
+*	img:quarter.jpg
+	img:eighth.jpg
+Which melody is staying the same?	
+*	img:aaaa.jpg
+	img:face.jpg
+	img:ecaf.jpg
+Which melody is going down?	
+	img:aaaa.jpg
+	img:face.jpg
+*	img:ecaf.jpg
+What instrument family does this belong to?<br />img:violin.jpg	
+	Percussion
+*	Strings
+	Brass
+	Woodwinds
+What instrument family does this belong to?<br />img:flute.jpg	
+	Percussion
+	Strings
+	Brass
+*	Woodwinds
+What instrument family does this belong to?<br />img:saxophone.jpg	
+	Percussion
+	Strings
+	Brass
+*	Woodwinds
+What instrument family does this belong to?<br />img:frenchhorn.jpg	
+	Percussion
+	Strings
+*	Brass
+	Woodwinds
+What instrument family does this belong to?<br />img:snaredrum.jpg	
+*	Percussion
+	Strings
+	Brass
+	Woodwinds
+What instrument family does this belong to?<br />img:trumpet.jpg	
+	Percussion
+	Strings
+*	Brass
+	Woodwinds
+What instrument family does this belong to?<br />img:xylophone.jpg	
+*	Percussion
+	Strings
+	Brass
+	Woodwinds
+What instrument family does this belong to?<br />img:guitar.jpg	
+	Percussion
+*	Strings
+	Brass
+	Woodwinds
+Which rhythm do you hear?<br />sound:ta-ta-ta-ta.wav	
+*	img:ta-ta-ta-ta.jpg
+	img:ta-ta-titi-ta.jpg
+	img:titi-ta-titi-ta.jpg
+	img:ta-ta-tikitiki-ta.jpg
+Which rhythm do you hear?<br />sound:ta-ta-titi-ta.wav	
+	img:ta-ta-ta-ta.jpg
+	img:tikitiki-ta-rest-ta.jpg
+	img:ta-ta-titi-ta.jpg
+*	img:ta-ta-tikitiki-ta.jpg
+Which rhythm do you hear?<br />sound:ta-ta-tikitiki-ta.wav	
+	img:ta-ta-ta-ta.jpg
+	img:ta-ta-titi-ta.jpg
+	img:titi-ta-titi-ta.jpg
+*	img:ta-ta-tikitiki-ta.jpg
+Which rhythm do you hear?<br />sound:tikitiki-ta-rest-ta.wav	
+	img:ta-ta-ta-ta.jpg
+*	img:tikitiki-ta-rest-ta.jpg
+	img:titi-ta-titi-ta.jpg
+	img:ta-ta-tikitiki-ta.jpg

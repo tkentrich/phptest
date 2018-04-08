@@ -29,7 +29,6 @@ $testStmt = $PDO->prepare("SELECT Q.oid QuestionID, Q.Text QuestionText, A.oid A
 $testStmt->execute();
 $result=$testStmt->fetchAll();
 ?>
-<form action="result.php" method="post">
 <table><tr><th>Test: <?php echo $_SESSION['TestName']; ?></th></tr>
 <?php
 $currentQuestion = false;
@@ -45,7 +44,7 @@ foreach ($result as $row) {
 		$questionIndex++;
 		$currentQuestion = $row[0];
 		?>
-			<tr><td class="question"><?php echo $questionIndex.") ".$row[1]; ?></td></tr>
+			<tr><td class="question"><?php echo $questionIndex.") ".subs($row[1]); ?></td></tr>
 	<?php
 	}
 	// Print Answer
@@ -71,10 +70,8 @@ foreach ($result as $row) {
 $testResult = 100 * $questionsCorrect / $questionIndex;
 ?>
 <script>
-document.getElementById("testResultDiv").innerHTML="<?php echo $_SESSION['InputName'].", you scored ".$testResult."%" ?>";
+document.getElementById("testResultDiv").innerHTML="<?php echo $_SESSION['InputName'].", you scored ".round($testResult,0)."%" ?>";
 </script>
 </table>
-<input type="submit" value="Submit Test" />
-</form>
 </body>
 </html>

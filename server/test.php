@@ -77,7 +77,7 @@ foreach ($result as $row) {
 		$questionIndex++;
 		$currentQuestion = $row[0];
 		?>
-		<tr><td class="question"><?php echo $questionIndex.") ".$row[1]; ?></td></tr>
+		<tr><td class="question"><?php echo $questionIndex.") ".subs($row[1]); ?></td></tr>
 		<?php
 	}
 	// Print Answer

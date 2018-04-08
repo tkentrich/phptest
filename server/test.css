@@ -15,14 +15,18 @@ td.answer {
 td.correctAnswer {
 	padding-left: 2em;
 	background-color: #44ff11;
+	border-style: solid;
+	border-color: #44ff11;
 }
 td.incorrectAnswer {
 	padding-left: 2em;
 	background-color: #ff4411;
+	border-style: solid;
+	border-color: #ff4411;
 }
 td.missedAnswer {
 	padding-left: 2em;
-	background-color: #44ff11;
-	border-style: solid;
-	border-color: #ff4411;
+	background-color: #ff4411;
+	border-style: dashed;
+	border-color: #44ff11;
 }
